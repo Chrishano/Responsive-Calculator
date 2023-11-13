@@ -1,48 +1,4 @@
-.one{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-  filter:blur(2px);
-  opacity: 0.05;
-  pointer-events: none;
-  
-}
 
-.two{
-	position: absolute;
-	top: 10%;
-	left:0%;
-  filter:blur(4px);
-  opacity: 0.03;
-  pointer-events: none;
-}
-
-.three{
-	position: absolute;
-	top: 20%;
-	left:30%;
-  filter:blur(4px);
-  opacity: 0.05;
-  pointer-events: none;
-}
-
-.four{
-	position: absolute;
-	top: 15%;
-	left: 35%;
-  filter:blur(2px);
-  opacity: 0.08;
-  pointer-events: none;
-}
-
-.five{
-	position: absolute;
-	top: 10%;
-	left: 50%;
-  filter:blur(2px);
-  opacity: 0.04;
-  pointer-events: none;
-}
 
 html {
     min-height: 100%;
