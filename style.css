@@ -1,0 +1,126 @@
+.one{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+  filter:blur(2px);
+  opacity: 0.05;
+  pointer-events: none;
+  
+}
+
+.two{
+	position: absolute;
+	top: 10%;
+	left:0%;
+  filter:blur(4px);
+  opacity: 0.03;
+  pointer-events: none;
+}
+
+.three{
+	position: absolute;
+	top: 20%;
+	left:30%;
+  filter:blur(4px);
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.four{
+	position: absolute;
+	top: 15%;
+	left: 35%;
+  filter:blur(2px);
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+.five{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+  filter:blur(2px);
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+html {
+    min-height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color:white;
+  font-family: 'Julius Sans One', sans-serif;
+  
+  background-color: black;
+ 
+}
+
+
+p {
+  text-align: center;
+  /*color: #00111a;*/
+  padding:20px;
+  background: rgba(204, 204, 204, 0.1);
+}
+
+.useless {
+  margin:20px;
+
+}
+.flex-body {
+ position: relative;
+  max-width:400px;
+  padding-top:10px;
+  margin:auto;
+  background-color: gray;
+  background: rgba(204, 204, 204, 0.5);
+  box-shadow: -1px -1px 30px #502c63;
+}
+.flex-row {
+  display: flex;
+  text-align: center;
+  max-width: 400px;
+  max-height: 400px;
+  min-height:60px;
+  justify-content:center;
+}
+.box-s {
+  width:25%;
+  justify-content:center;
+  padding:20px; 
+}
+a{
+  width:100%;
+  height:100%
+}
+
+.box-m {
+  width: 37.5%;
+  justify-content:center;
+  padding:20px;
+}
+
+
+.modify:hover {
+  background: rgba(204, 204, 204, 0.5);
+}
+
+
+
+.box-l {
+  width: 50%;
+  min-width: 40px;
+  display: flex;
+  justify-content:center;
+  padding:20px;
+}
+
+#wrapper {
+  padding: auto 10px auto 10px;
+}
+
