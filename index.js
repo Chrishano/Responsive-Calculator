@@ -1,16 +1,16 @@
 //Calculator Code:
 
-var newEqua = true;
-var consecSym = false;
-var arr = [];
-var condencedArr = [];
-//var ceTemp = []; 
-var curNum = 0;
-var decDivide = 1;
-var decTrue = false; 
-var holdAnswer;
-var pointTrue = false;
-var screen = document.getElementById("screen");
+let newEqua = true;
+let consecSym = false;
+let arr = [];
+let condencedArr = [];
+//let ceTemp = []; 
+let curNum = 0;
+let decDivide = 1;
+let decTrue = false; 
+let holdAnswer;
+let pointTrue = false;
+let screen = document.getElementById("screen");
 
 
   function ce(){
@@ -25,7 +25,7 @@ var screen = document.getElementById("screen");
     screen.innerHTML = arr.join('');
     consecSym = false;
     //alert(arr);
-    var oWNW = ["+","-","*","/","."];
+    let oWNW = ["+","-","*","/","."];
     if(oWNW.indexOf(arr[arr.length-1]) !== -1)
     consecSym = true; 
   } else {
@@ -141,7 +141,7 @@ for(i = 0; i < arr.length; i++){
 }
  
   
-var result = condencedArr[0];
+let result = condencedArr[0];
 for(i = 0; i < condencedArr.length; i++){
    
     if(condencedArr[i] ===  "+"){
